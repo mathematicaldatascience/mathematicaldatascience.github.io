@@ -16,6 +16,12 @@
 	    margin: 2% 10%;
 	
 	}
+	
+	#top {
+	    width: 100%;
+		text-align: right;
+		margin-bottom: 1em;
+	}
 
 	#head {
 	    display: flex;
@@ -35,7 +41,23 @@
 	    width: 100%;
 	    height: min-content;
 	}
-	
+
+	.columnlll {
+		text-align: left;
+	  float: right;
+	  width: 2em;
+	  margin-top:0px;
+	  padding: 0px;
+	}
+	.columnrrr {
+	  float: right;
+	  width: 2em;
+	  margin-top:0px;
+	  margin-bottom:20px;
+	  text-align: right;
+	  padding-right: 8px;
+	}
+
 </style>
 </head>
 
@@ -43,6 +65,29 @@
 
 
 <body>
+	
+    <div class="top">
+	<div class="columnlll" >
+	<img src="ger.png" height="22" width="34"
+           alt="Deutsch">
+	</div>
+	<div class="columnrrr" >
+ DE
+	</div>	
+		
+	    
+			<div class="columnlll" >
+			<a href="index_en.html"><img src="en.png" height="22" width="34"
+                alt="English"></a>
+			</div>
+			<div class="columnrrr" >
+   		 <a href="index_en.html">EN</a>
+			</div>
+	    
+		
+
+	</div>
+
 <div id="head">
     <div>
         <h1 style="margin-top: 0.15em; font-size: 32px; margin-bottom: -0.35em">Mathematische Einf&uuml;hrung in Data Science</h1>
@@ -95,7 +140,7 @@
     <pre><code>
 @book{Wegner24,
   author = "Sven-Ake Wegner",
-  title = "Mathematische Einf\"uhrung in Data Science",
+  title = "Mathematische {E}inf\"uhrung in {D}ata {S}cience",
   publisher = "Springer Spektrum",
   address = "Berlin, Heidelberg",
   DOI = "10.1007/978-3-662-68697-3",
